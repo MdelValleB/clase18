@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="form">
+        <header>
+            <h2>Añadi tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+        </header>
+        <!--formulario-->
+        <form action="#" autocomplete="off">
+            <section class="main-form">
+                <!-- seccion izquierda -->
+                <fieldset class="left">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="input-style">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha" class="input-style"><br>
+                    <textarea name="descripcion" id="desc" cols="25" rows="10" placeholder="Descripción"
+                        class="input-style"></textarea>
+                </fieldset>
+                <!-- seccion derecha -->
+                <fieldset class="right">
+                    <label for="especie" id="label-especie">Especie</label>
+                    <select name="especie" id="especie" class="input-style">
+                        <option value="Especie" placeholder="Especie">Especie</option>
+                    </select>
+                    <label for="foto" id="label-foto">Agregar Foto</label>
+                    <input type="file" name="foto" placeholder="Seleccionar archivo"> <br>
+                    <!-- poderes -->
+                    <label for="poderes" class="label-right">Poderes</label>
+                    <section class="check">
+                        <input type="checkbox" name="volar" id="volar">
+                        <label for="volar">Volar</label>
+                    </section>
+                    <section class="check">
+                        <input type="checkbox" name="superintell" id="superintell">
+                        <label for="superintell">Superinteligencia</label>
+                    </section>
+                    <section class="check">
+                        <input type="checkbox" name="vista" id="vista">
+                        <label for="vista">Billetera gorda</label>
+                    </section><br>
+                    <hr>
+                    <!-- tipo de personaje -->
+                    <label for="tipo" id="label-tipo" class="label-tipo">Tipo de personaje</label>
+                    <section class="check">
+                        <input type="radio" name="tipo" id="heroe" value="Heroe/Heroina">
+                        <label for="heroe">Héroe/Heroína</label>
+                    </section>
+                    <section class="check">
+                        <input type="radio" name="tipo" id="villano" value="villano">
+                        <label for="villano">Villano/Villana</label>
+                    </section>
+
+                </fieldset>
+            </section>
+            <!-- boton  -->
+            <div class="btn">
+                <button type="submit">Añadir</button>
+            </div>
+        </form>
+
+    </section>
+</body>
+
+</html>

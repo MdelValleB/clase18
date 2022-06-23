@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@0;1&family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+section.form{
+    background-color: #00669F;
+    padding: .5rem 1.5rem;
+    border-radius: 15px;
+    height: 75vh;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+
+}
+
+input[type="file"]{
+    margin-top: .25rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: .5 rem 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+  
+    
+}
+.main-form{
+   
+    display: flex;
+}
+.left, .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.input-style, fieldset{
+  
+    padding: .5rem; 
+    border: none;
+    border-radius: 3px;
+}
+label{
+    margin: .5rem;
+  
+}
+.label-right, .label-tipo{
+    text-align: left;    
+  
+}
+
+button{
+    padding: .8rem 6rem;
+    background-color: #1CD1B0;
+    color: #000;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    
+}
+.btn{
+    text-align: center;
+    margin-top:1rem;
+ 
+    
+}
+input{
+    background-color: aliceblue;
+}
+ /* input:focus, textarea:focus{
+    background-color: aquamarine; 
+} */
+
+/* focus enabled disabled target invalid nth-child valid required*/
